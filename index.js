@@ -1,20 +1,28 @@
 const images = [
   {name: "Creepers",
-   location: "creepers.jpg"},
+   location: "./images/creepers.jpg"},
   {name: "Girls",
-    location: "girls.jpg"},
+    location: "./images/girls.jpg"},
   {name: "Karlsbad",
-    location: "karlsbad.jpg"},
+    location: "./images/karlsbad.jpg"},
   {name: "Museé du Louvre",
-    location: "louvre.jpg"},
+    location: "./images/louvre.jpg"},
   {name: "Guillermo Meza",
-    location: "pexels-guillermo-meza.jpg"},
+    location: "./images/pexels-guillermo-meza.jpg"},
   {name: "Squids-Z",
-    location: "./squids-z-unsplash.jpg"},
+    location: "./images/squids-z-unsplash.jpg"},
   {name: "Woman",
-    location: "woman.jpg"},  
-  {name: "Almas Salakhov",
-   location: "almas-salakhov-unsplash.jpg"}
+    location: "./images/woman.jpg"},  
+  {name: "Jerry Wang",
+   location: "./images/jerry-wang.jpg"},
+   {name: "Karsten Winegeart",
+   location: "./images/karsten-winegeart.jpg"},
+   {name: "Fluffy dog",
+   location: "./images/fluffy-dog.jpg"},
+   {name: "RCCBTN",
+   location: "./images/pexels-rccbtn.jpg"},
+   {name: "Shairaos",
+   location: "./images/pexels-shairaos.jpg"}
 ];
 
 let contenedor = document.getElementById("container");

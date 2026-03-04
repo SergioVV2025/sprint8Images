@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+figure {
+  box-shadow: 0 0 5px 5px #004b6b;
+}
+
+img {
+  width: 100%;
+}
+
+.image-container {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+}

@@ -15,7 +15,7 @@ const images = [
   { name: "Jaques Cousteau", location: "./images/avatar.jpg" },
 ];
 
-let contenedor = document.getElementById("container");
+let imageContainer = document.getElementById("image-container");
 
 images.forEach(insertarImagenes);
 
@@ -31,5 +31,36 @@ function insertarImagenes(imagen) {
 
   figure.append(img, figcaption);
 
-  contenedor.append(figure);
+  imageContainer.append(figure);
+}
+
+const videos = [
+  {
+    name: "caroProp18",
+    location: "./videos/caroProp18_14.mp4",
+  },
+  {
+    name: "caroProp19",
+    location: "./videos/caroProp19_2.mp4",
+  },
+];
+
+let videoContainer = document.getElementById("video-container");
+
+videos.forEach(insertarVideos);
+
+function insertarVideos(video) {
+  let figure = document.createElement("figure");
+
+  let videoElement = document.createElement("video");
+  videoElement.setAttribute("src", video.location);
+  videoElement.setAttribute("autoplay", true);
+  videoElement.muted = true;
+
+  let figcaption = document.createElement("figcaption");
+  figcaption.textContent = video.name;
+
+  figure.append(videoElement, figcaption);
+
+  videoContainer.append(figure);
 }

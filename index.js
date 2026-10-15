@@ -37,11 +37,11 @@ function insertarImagenes(imagen) {
 const videos = [
   {
     name: "caroProp18",
-    location: "./videos/caroProp18_14.mp4",
+    location: "./videos/caroProp18_14_optimizado.mp4",
   },
   {
     name: "caroProp19",
-    location: "./videos/caroProp19_2.mp4",
+    location: "./videos/caroProp19_2_optimizado.mp4",
   },
 ];
 

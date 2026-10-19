@@ -47,6 +47,10 @@ const videos = [
     name: "caroProp20",
     location: "./videos/caroProp20_3_opt_sa.mp4",
   },
+  {
+    name: "caroProp21",
+    location: "./videos/caroProp21_2_opt_sa.mp4",
+  },
 ];
 
 let videoContainer = document.getElementById("video-container");

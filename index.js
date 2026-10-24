@@ -57,8 +57,6 @@ const videos = [
   },
 ];
 
-caroProp22_1_opt_sa.mp4;
-
 let videoContainer = document.getElementById("video-container");
 
 videos.forEach(insertarVideos);

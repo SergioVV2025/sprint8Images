@@ -62,7 +62,8 @@ function insertarVideos(video) {
 
   let videoElement = document.createElement("video");
   videoElement.setAttribute("src", video.location);
-  videoElement.setAttribute("autoplay", true);
+  // videoElement.setAttribute("autoplay", true);
+  videoElement.setAttribute("xontrols", true);
   videoElement.muted = true;
 
   let figcaption = document.createElement("figcaption");

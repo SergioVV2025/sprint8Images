@@ -63,6 +63,14 @@ const videos = [
     name: "caroProp29",
     location: "./videos/caroProp29_7_opt_sa.mp4",
   },
+  {
+    name: "caroProp30",
+    location: "./videos/caroProp29_7_opt_sa.mp4",
+  },
+  {
+    name: "caroProp18 inmb24",
+    location: "./videos/caroProp18_1_inm24_opt_sa.mp4",
+  },
 ];
 
 let videoContainer = document.getElementById("video-container");

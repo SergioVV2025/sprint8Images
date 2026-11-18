@@ -65,7 +65,7 @@ const videos = [
   },
   {
     name: "caroProp30",
-    location: "./videos/caroProp29_7_opt_sa.mp4",
+    location: "./videos/caroProp30_3_opt_sa.mp4",
   },
   {
     name: "caroProp18 inmb24",
